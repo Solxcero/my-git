@@ -1,0 +1,10 @@
+LF ERROR
+
+원래는 
+
+git config core.autocrlf true
+
+이 명령어사용했지만, 여전히 동일한 에러가 나서 아래 두 코드로 해결함
+
+git config --global core.eol lf
+git config --global core.autocrlf input
